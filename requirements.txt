@@ -1,2 +1,7 @@
+black
+invoke
+isort
 mypy
+pytest
+pytest-cov
 tinydb

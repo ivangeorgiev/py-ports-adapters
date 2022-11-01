@@ -1,3 +1,3 @@
-from ._command import Command, Response, Failure, Handler
+from ._command import Command, CommandBus, Failure, Handler, HandlerMap, Response
 
-__all__ = ["Command", "Response", "Failure", "Handler"]
+__all__ = ["Command", "CommandBus", "Response", "Failure", "Handler", "HandlerMap"]
